@@ -29,7 +29,9 @@ EIGRP is a hybrid routing protocol that combines the features of both distance v
 ![Design 1](https://github.com/user-attachments/assets/79c085ec-f13f-41ea-8ba7-0d98c4101f8b)
 
 Type: Distance-vector (with some link-state features)
+
 Metric: Bandwidth, delay, load, reliability
+
 Administrative Distance (AD): 90 for internal routes, 170 for external routes
 
 # 2. EIGRP vs. Other Routing Protocols (OSPF, RIP)
