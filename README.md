@@ -77,14 +77,18 @@ EIGRP uses five packet types:
 Here, 1 represents the Autonomous System (AS) number, and 192.168.1.0 is the network to advertise.
 
 # 7. Advanced EIGRP Concepts
+
 Feasible Successor: Backup routes stored in the topology table.
+
 DUAL Algorithm: Used to ensure loop-free paths and rapid convergence.
 
 # 8. Troubleshooting EIGRP
 Common commands for troubleshooting:
 
 show ip eigrp neighbors
+
 show ip eigrp topology
+
 debug eigrp packets
 
 # 9. Conclusion
