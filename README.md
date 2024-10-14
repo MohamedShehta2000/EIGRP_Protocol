@@ -20,7 +20,7 @@
 
 #### ![Design 1](https://github.com/user-attachments/assets/79c085ec-f13f-41ea-8ba7-0d98c4101f8b)
 
-####Type: Distance-vector (with some link-state features)
+#### Type: Distance-vector (with some link-state features)
 #### Metric: Bandwidth, delay, load, reliability
 #### Administrative Distance (AD): 90 for internal routes, 170 for external routes
 
@@ -40,14 +40,13 @@
 # 4. EIGRP Metrics and Calculation
 ## EIGRP uses a composite metric based on the following:
 
-Bandwidth: The slowest link in the path.
-Delay: Cumulative delay of the path.
-Load: The traffic utilization on the link.
-Reliability: The error rate of the link.
+#### Bandwidth: The slowest link in the path.
+#### Delay: Cumulative delay of the path.
+#### Load: The traffic utilization on the link.
+#### Reliability: The error rate of the link.
 
-The formula to calculate the EIGRP metric is:
-
-Metric=256×(10 *7/Bandwidth + Delay)
+#### The formula to calculate the EIGRP metric is:
+##### Metric=256×(10 *7/Bandwidth + Delay)
 
 # 5. EIGRP Packet Types
 ### EIGRP uses five packet types:
