@@ -6,8 +6,11 @@ EIGRP is a dynamic routing protocol used on a computer network for automating ro
 
 # Table of Contents
 1.What is EIGRP?
+
 2.EIGRP vs. Other Routing Protocols (OSPF, RIP)
+
 3.Key Features of EIGRP
+
 4.EIGRP Metrics and Calculation
 5.EIGRP Packet Types
 6.Configuration of EIGRP on Cisco Routers
